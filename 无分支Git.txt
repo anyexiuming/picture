@@ -54,7 +54,7 @@ git push -u  origin(远)  main(远程)
 =================================================
 
 =================================================
-四。重命名origin
+三.重命名origin
 1.git init
 2.git remote add  local https://github.com/anyexiuming/picture.git 
 3.新增内容
@@ -98,7 +98,7 @@ git push -u  origin(远)  main(远程)
 =============================================
 
 ============================================
-远程仓库
+四.远程仓库
 查看远程仓库命令： git remote -v
 生成密钥：ssh-keygen -t rsa -C "example01@163.com" 为什么GitHub需要SSHKey呢？
 因为GitHub需要识别出你推送的提交确实是你推送的，而不是别人冒充的，而Git支持SSH协议，
