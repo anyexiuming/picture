@@ -1,8 +1,5 @@
 =============================================
-永不过期token: 
-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
 
-https://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@github.com/anyexiuming/picture.git
 =================================================
 错误！！
 git push 或者git clone 时报错 
@@ -103,7 +100,11 @@ git push -u  origin(远)  main(远程)
 ============================================
 远程仓库
 查看远程仓库命令： git remote -v
-生成密钥：ssh-keygen -t rsa -C "example01@163.com" 为什么GitHub需要SSHKey呢？因为GitHub需要识别出你推送的提交确实是你推送的，而不是别人冒充的，而Git支持SSH协议，所以，GitHub只要知道了你的公钥， 就可以确认只有你自己才能推送。当然，GitHub允许你添加多个Key。假定你有若干电脑，你一会儿在公司提交, 一会儿在家里提交，只要把每台电脑的Key都添加到GitHub，就可以在每台电脑上往GitHub推送了。
+生成密钥：ssh-keygen -t rsa -C "example01@163.com" 为什么GitHub需要SSHKey呢？
+因为GitHub需要识别出你推送的提交确实是你推送的，而不是别人冒充的，而Git支持SSH协议，
+所以，GitHub只要知道了你的公钥， 就可以确认只有你自己才能推送。当然，GitHub允许你添加多个Key。
+假定你有若干电脑，你一会儿在公司提交, 一会儿在家里提交，
+只要把每台电脑的Key都添加到GitHub，就可以在每台电脑上往GitHub推送了。
 为本地仓库配置远程仓库：
 git remote add <shortname> <url> 
 添加一个新的远程 Git 仓库，同时指定一个你可以轻松引用的简写：
